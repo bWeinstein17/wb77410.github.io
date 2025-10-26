@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(43, 139, 19);
+}
+
+#name {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: cyan;
+    color: crimson;
+    font-style: italic;
+    padding: .1px;
+}
+
+#nav {
+    text-align: center;
+}
+
+#something {
+    float: right;
+}
+
+#container {
+    background-color: aquamarine;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#paragraphs {
+    text-align: center;
+}

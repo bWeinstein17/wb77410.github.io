@@ -2,11 +2,11 @@
 <html lang="en">
     <div id="container">
         <head>
-            <title>Assignment 3</title>
+            <title>Assignment 4</title>
             <link rel="stylesheet" type="text/css" href="style.css"/>
         </head>
         <div id="name">
-            <h1>Assignment 3</h1>
+            <h1>Assignment 4</h1>
         </div>
         <div id="paragraphs">
             <p>The first activity I have decided to do is activity #1. Activity #1 makes you complete a guide on how to use a search engine and browse the World Wide Web. It also shows you the advantages and disadvantages of using specific search engines. Personally, I don’t find anything useful in this that I already don’t know. However, this is a very good starting point for someone who wants to get into the internet. If there were a time when I would have to share information on how to use the internet, I think this would be the best activity for them.</p>
