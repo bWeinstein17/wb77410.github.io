@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <div id="container">
+        <head>
+            <title>Assignment 12</title>
+            <script>
+                document.write("Brandon Weinstein");
+            </script>
+            <link rel="stylesheet" type="text/css" href="style.css"/>
+        </head>
+        <div id="name">
+            <h1>Assignment 12</h1>
+        </div>
+        <p id="date"></p>
+        <script>
+            document.getElementById("date").innerHTML = Date();
+        </script>
+        <div id="paragraphs">
+            <p>For assignment 12, I have been tasked with learning JavaScript. JavaScript is another coding language that can be used for various purposes. For this activity, I was instructed to use it for HTML5. When learning about HTML5, it sparked a greater interest in coding for me. I really did enjoy using JavaScript, and could potentially use it for the future ahead of me. This very fun experience that I plan to come back to.</p>
+        </div>
+        <canvas id="canvas" width="240" height="240">
+            Canvas is not supported
+        </canvas>
+        <script>
+            var example = document.getElementById("canvas");
+            var context = example.getContext("2d");
+            context.strokeStyle = "blue";
+            context.fillStyle = "green";
+            context.font = "24px burbank";
+            context.textAlign = "right";
+            context.strokeText("CANVAS", 160, 50);
+            context.fillText("CANVAS", 160, 50);
+        </script>
+        <script>
+            context.lineWidth = 4;
+            context.moveTo(30, 65);
+            context.lineTo(290, 65);
+            context.stroke();
+        </script>
+    </div>
+</html>
